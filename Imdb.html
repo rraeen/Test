@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sr {
+            width: 500px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .card {
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            width: 250px;
+            height: 250px;
+            padding: 2px;
+            margin: 2px;
+
+        }
+
+        #btn {
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: orange;
+        }
+
+        #container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        #Area {
+
+            border:1px static red;
+            display: grid;
+            row-gap: 10px;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto auto;
+
+            column-gap: 2px;
+            margin-top: 2px;
+        }
+        #movie{
+            padding: 10px;
+            width: 250px;
+            text-align: center;
+
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        #m{
+            position: absolute;
+            margin-top: 260px;
+        }
+        #y{
+            position: absolute;
+            margin-top: 280px;
+            font-weight: bold;
+            
+        }
+
+        * {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <form name="fm">
+            <input id="sr" name="search" type="text" placeholder=" search the movie">
+            <button id="btn"> search</button>
+        </form>
+    </div><br>
+    <hr>
+    <div id="Area">
+        <!-- <div class="card">
+            <img src="">
+            <p id="m">Movie name</p>
+            <p id="y">year</p>
+        </div> -->
+        
+
+       
+
+
+
+    </div>
+   
+    
+    <script src="./imdb.js"></script>
+
+</body>
+
+</html>
