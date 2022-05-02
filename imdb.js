@@ -44,11 +44,6 @@ btn.addEventListener("click", function(e){
     imdb()  
 })
 
-// Poster: "https://m.media-amazon.com/images/M/MV5BNDYxNWUzZmYtOGQxMC00MTdkLTkxOTctYzkyOGIwNWQxZjhmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
-// Title: "Lagaan: Once Upon a Time in India"
-// Type: "movie"
-// Year: "2001"
-// imdbID: "tt0169102"
 
 
 
